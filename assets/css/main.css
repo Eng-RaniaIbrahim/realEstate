@@ -1,0 +1,362 @@
+* {
+    direction: rtl;
+}
+
+header .container nav ul li a {
+    color: rgb(8, 8, 158);
+    font-weight: bold;
+}
+
+header .container nav ul li a:hover {
+    color: red;
+}
+
+header .container nav a img {
+    width: 45px;
+}
+
+/**********************************************/
+.hero {
+    padding-bottom: 100px;
+}
+
+.hero .container .image {
+    background-size: 100% 100%;
+    background-image: url(../image/pexels-photo-65307.jpeg);
+    border-radius: 25px;
+    position: relative;
+
+}
+
+.hero .image .caption {
+    /*t*r*b*l*/
+    padding: 140px 50px 140px 165px;
+    background-color: #ffffff96;
+    color: rgb(8, 8, 158);
+}
+
+.hero .image .caption span {
+    color: red;
+}
+
+.hero .container .image h1 {
+    font-size: 30px;
+}
+
+.hero .container .image p {
+    font-size: 15px;
+}
+
+.hero .container .image .search {
+
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero .container .image .search form {
+    background-color: #fff !important;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px #e2bdbd;
+}
+
+.slick-dots li button:before {
+    font-size: 45px;
+    top: 30px;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li.slick-active button:before {
+    color: red;
+}
+
+/*===============special====================*/
+.special {
+    background-color: #eef3f7;
+}
+
+.special .container h2 {
+    font-size: 25px;
+    color: rgb(8, 8, 158);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.special .container h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    font-weight: 700;
+}
+
+.special .container h5 {
+    color: rgb(8, 8, 158);
+}
+
+.special .container p {
+    color: red;
+    font-weight: bold;
+}
+
+.special .container span {
+    color: rgb(8, 8, 158);
+}
+/******************favourites***********************/
+.favourites{
+    background-color:#e4e8e9 ;
+}
+.favourites .container h2 {
+    font-size: 25px;
+    color: rgb(8, 8, 158);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.favourites .container h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    font-weight: 700;
+}
+.favourites .container .row button{
+    font-size: 18px;
+    color: rgb(8, 8, 158);
+}
+.favourites .container .row .col-lg-4{
+    position: relative;
+}
+.favourites .container .row .col-lg-4 .white{
+    background-color: #fff;
+    color: rgb(8, 8, 158);
+    padding:15px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: -10%;
+    left: 60%;
+}
+.favourites .container .row .col-lg-4 .white h3{
+    font-size: 15px;
+}
+/*********************end favourites****************************/
+/*===============newest====================*/
+.newest {
+    background-color: #eef3f7;
+}
+
+.newest .container h2 {
+    font-size: 25px;
+    color: rgb(8, 8, 158);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.newest .container h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    font-weight: 700;
+}
+
+.newest .container h5 {
+    color: rgb(8, 8, 158);
+}
+
+.newest .container p {
+    color: red;
+    font-weight: bold;
+}
+
+.newest .container span {
+    color: rgb(8, 8, 158);
+}
+
+/*===============development===================*/
+.development{
+    background-color:#e4e8e9 ;
+}
+.development .container h2 {
+    font-size: 25px;
+    color: rgb(8, 8, 158);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.development .container h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    font-weight: 700;
+}
+.development .container .row button{
+    font-size: 18px;
+    color: rgb(8, 8, 158);
+}
+.development .container .row .col-lg-3{
+    position: relative;
+}
+.development .container .row .col-lg-3 .white{
+    background-color: #fff;
+    color: rgb(8, 8, 158);
+    padding:15px 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+}
+.development .container .row .col-lg-3 .white:hover{
+    background: rgb(235,47,5);
+background: linear-gradient(90deg, rgba(235,47,5,0.82) 0%, rgba(60,9,121,0.82) 54%, rgba(9,9,121,0.82) 100%);
+    color: white;
+
+}
+.development .container .row .col-lg-3 .white h4{
+    font-size: 15px;
+}
+.development .container .row .col-lg-3 .white p{
+    font-size: 12px;
+}
+/*===============end development================*/
+/*====================projects===================*/
+.projects{
+    background-color:#eef3f7 ;
+}
+.projects .container h2 {
+    font-size: 25px;
+    color: rgb(8, 8, 158);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.projects .container h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    font-weight: 700;
+}
+.projects .container .row button{
+    font-size: 18px;
+    color: rgb(8, 8, 158);
+}
+.projects .container .row .col-lg-3{
+    position: relative;
+}
+.projects .container .row .col-lg-3 .white{
+    background-color: #fff;
+    color: rgb(8, 8, 158);
+    padding:15px 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+}
+.projects .container .row .col-lg-3 .white:hover{
+    background: rgb(235,47,5);
+background: linear-gradient(90deg, rgba(235,47,5,0.82) 0%, rgba(60,9,121,0.82) 54%, rgba(9,9,121,0.82) 100%);
+    color: white;
+
+}
+.projects .container .row .col-lg-3 .white h4{
+    font-size: 15px;
+}
+.projects .container .row .col-lg-3 .white p{
+    font-size: 12px;
+}
+/*==================== end projects ===================*/
+.options{
+    background-color:#eef3f7 ;
+}
+.options .container{
+    background-color:#e4e8e9;
+    border-radius: 25px;
+}
+.options .container h2 {
+    color: rgb(8, 8, 158);
+}
+.options .container  .row{
+    color: rgb(8, 8, 158);
+}
+.options .container  .row  h4{
+    font-size: 20px;
+}
+/*==================== end options ===================*/
+.blog{
+    background-color:#eef3f7 ;
+}
+.blog .container h2 {
+    font-size: 25px;
+    color: rgb(8, 8, 158);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.blog .container h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    font-weight: 700;
+}
+.blog .container .row .col-lg-4 .white{
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: auto;
+    transition: all 0.3s;
+}
+.blog .container .row .col-lg-4 .white:hover{
+    background-color: rgb(8, 8, 158);
+    color: white;
+}
+.blog .container .row .col-lg-4 .white a{
+    float: right;
+}
+/*=================blog====================*/
+footer {
+    background-color: rgb(8, 8, 158);
+}
+footer .container .row{
+    margin: auto;
+}
+footer .container .row .icons{
+    color:#fff;
+}
+footer .container .row .icons i{
+    color: red;
+    margin-top:25px;
+    padding: 5px;
+}
